@@ -96,7 +96,7 @@
     "turbo": "2.8.13"
   },
   "dependencies": {
-    "@aws-sdk/client-s3": "3.933.0",
+    "@aws-sdk/client-s3": "3.1085.0",
     "@squadcoder/plugin": "workspace:*",
     "@squadcoder/script": "workspace:*",
     "@squadcoder/sdk": "workspace:*",
@@ -124,7 +124,8 @@
   ],
   "overrides": {
     "@types/bun": "catalog:",
-    "@types/node": "catalog:"
+    "@types/node": "catalog:",
+    "@aws-sdk/core": "3.975.1"
   },
   "patchedDependencies": {
     "@npmcli/agent@4.0.0": "patches/@npmcli%2Fagent@4.0.0.patch",
